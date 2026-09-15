@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.codecool</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>cors-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cors-demo</name>

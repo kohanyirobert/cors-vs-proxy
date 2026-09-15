@@ -1,8 +1,8 @@
 # CORS, and why the proxy "did not work"
 
-A minimal, runnable demo for the Experis fullstack course. One endpoint, two
-backends (Spring Boot and ASP.NET), one Vite frontend. Everything below was
-measured against these projects, not quoted from documentation.
+A minimal, runnable demo. One endpoint, two backends (Spring Boot and
+ASP.NET), one Vite frontend. Everything below was measured against these
+projects, not quoted from documentation.
 
 The point it exists to make: **a dev proxy and a backend CORS config are two
 different answers to the same question, and switching to the proxy without

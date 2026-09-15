@@ -1,4 +1,4 @@
-package com.codecool.corsdemo;
+package com.example.corsdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
