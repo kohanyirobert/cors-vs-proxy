@@ -1,0 +1,14 @@
+# node
+node_modules/
+dist/
+
+# java
+target/
+
+# dotnet
+bin/
+obj/
+
+# misc
+.DS_Store
+*.log

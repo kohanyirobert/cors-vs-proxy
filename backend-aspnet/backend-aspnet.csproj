@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>backend_aspnet</RootNamespace>
+
+    <!-- Distro-packaged SDKs (Arch's dotnet-sdk, and some others) ship without
+         the package pruning data that .NET 10 expects, which fails the build
+         with NETSDK1226 "Prune Package data not found". Pruning is only a size
+         optimisation, so skipping it changes nothing about how this runs. -->
+    <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
+  </PropertyGroup>
+
+</Project>
